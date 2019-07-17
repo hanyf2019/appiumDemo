@@ -1,12 +1,11 @@
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.offset.PointOption;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import tools.BaseDriver;
 
-import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
