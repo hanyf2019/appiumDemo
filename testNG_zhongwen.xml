@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="我自己的接口测试套件zong">
+    <suite-files >
+        <!--模块1-->
+        <suite-file path="testNG_testDemo1.xml"></suite-file>
+
+        <!--模块2-->
+        <suite-file path="testNG_testDemo2.xml"></suite-file>
+
+    </suite-files>
+    <listeners>
+        <listener class-name="tools.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>

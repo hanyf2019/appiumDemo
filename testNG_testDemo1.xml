@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="我自己的接口测试套件1">
+    <test name="这些是测试模块1">
+        <classes>
+            <class name="TestNGDemo">
+                <methods>
+                    <include name="test1" description="demo1"/>
+                    <include name="test2" description="demo2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="这些是测试模块2">
+        <classes>
+            <class name="TestNGDemo1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

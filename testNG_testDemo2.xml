@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="我自己的接口测试套件2">
+    <test name="这些是测试模块3">
+        <classes>
+            <class name="TestNGDemo2">
+                <methods>
+                    <include name="test21"/>
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+</suite>
